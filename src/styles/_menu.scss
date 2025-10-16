@@ -1,0 +1,19 @@
+    .menu {
+  margin-top: 2rem;
+  margin-left: 1rem;
+ 
+
+  a {
+    text-decoration: none;
+    color: #b75306;
+    font-weight: bold;
+    background-color: #b2bd9a;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    
+    &:hover {
+      color: #e27508;
+    }
+  }
+}

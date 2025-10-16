@@ -1,0 +1,27 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./Header";
+import Projects from "./Projects";
+import About from "./About";
+import Footer from "./Footer";
+import "../styles/App.scss";
+import Menu from "./Menu";
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <Menu />
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;
