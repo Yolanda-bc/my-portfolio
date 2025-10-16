@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Menu />
         <Routes>
           <Route path="/" element={<Header />} />
           <Route path="/projects" element={<Projects />} />
