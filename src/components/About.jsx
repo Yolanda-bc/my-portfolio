@@ -8,14 +8,12 @@ export default function About() {
         Soy una desarrolladora frontend con enfoque en la creación de interfaces
         limpias, accesibles y rápidas. Me encanta trabajar con React, mejorar la
         experiencia del usuario y seguir aprendiendo cada día. Soy una persona
-        muy curiosa y me apasiona probar cosas nuevas.
+        muy curiosa y me apasiona probar cosas nuevas. Quiero renovar mi
+        situación laboral y empezar de cero en otro campo que no es el mio, pero
+        del que tengo muchísimas ganas de aprender. Soy una persona muy
+        trabajadora y me involucro mucho en mi trabajo.
       </p>
-      <a
-        href="/CV_Yolanda.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-      >
+      <a className="cv" href="/CV_Yolanda.pdf">
         Ver mi CV
       </a>
     </div>

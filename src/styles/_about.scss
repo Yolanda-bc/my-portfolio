@@ -3,7 +3,26 @@
      color:#FFECB3;
      text-align: center;
      margin-top: 5rem;
+     margin-left: 1rem;
+     margin-right: 1rem;
 }
 .about {
      font-size: 3rem;
 }
+.cv{
+
+    text-decoration: none;
+    color: #b75306;
+    font-weight: bold;
+    background-color: #b2bd9a;
+    border-radius: 15px;
+    padding: 1px 10px;
+    font-size: 1rem;
+    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+    
+    &:hover {
+      color: #e27508;
+    }
+  }
