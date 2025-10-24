@@ -13,7 +13,7 @@ export default function About() {
         del que tengo muchísimas ganas de aprender. Soy una persona muy
         trabajadora y me involucro mucho en mi trabajo.
       </p>
-      <a className="cv" href="/CV_Yolanda.pdf">
+      <a className="cv" href={`${import.meta.env.BASE_URL}CV_Yolanda.pdf`}>
         Ver mi CV
       </a>
     </div>
